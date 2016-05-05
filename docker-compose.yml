@@ -1,0 +1,14 @@
+version: '2'
+services:
+  ci:
+    image: jenkins:2.0
+    ports:
+      - "8080:8080"
+      - "50000:50000"
+  gogs:
+    image: gogs/gogs
+    ports:
+      - "10022:22"
+      - "10080:3000"
+    volumes:
+      - /home/johnstorey/projects/docker/binaryfelinedev/gogsrepo:/data
