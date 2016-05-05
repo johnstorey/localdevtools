@@ -1,7 +1,7 @@
 This is just some servers that are usually remote but which I am trying out locally. Currently we have:
 
-- Jenkins 2.0
-- Gogs
+- [Jenkins 2.0](https://jenkins.io/2.0/)
+- [Gogs](https://github.com/gogits/gogs)
 
 # Install
 
